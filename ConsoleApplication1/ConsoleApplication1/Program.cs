@@ -19,5 +19,11 @@ namespace ConsoleApplication1
                 return false;
             return true;
         }
+      public static bool IsEven (int n)
+        {
+            if (n % 2 != 0)
+                return false;
+            return true;
+        }
     }
 }
